@@ -1,0 +1,42 @@
+.container{
+    width: 480px;
+    height: 432px;
+}
+.bandeau{
+    max-width: 100%;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.carousel-slide{
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-slide #p1 img{
+    max-width: 480px;
+} 
+
+.webcam-pic{
+    height: 260px;
+    transform: translateX(0em);
+    transition: 15s;
+    -webkit-transition: 15s;
+    -moz-transition: 15s;
+    -ms-transition: 15s;
+    -o-transition: 15s;
+    -webkit-transform: translateX(0em);
+    -moz-transform: translateX(0em);
+    -ms-transform: translateX(0em);
+    -o-transform: translateX(0em);
+}
+
+.transform{
+    transform: translateX(-25em);
+    -webkit-transform: translateX(-25em);
+    -moz-transform: translateX(-25em);
+    -ms-transform: translateX(-25em);
+    -o-transform: translateX(-25em);
+}
